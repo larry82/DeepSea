@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  category: MyString
+  name: MyString
+  info: MyString
+  atk: 1
+  hp: 1
+  def: 1
+  captured_probability: 1
+
+two:
+  category: MyString
+  name: MyString
+  info: MyString
+  atk: 1
+  hp: 1
+  def: 1
+  captured_probability: 1

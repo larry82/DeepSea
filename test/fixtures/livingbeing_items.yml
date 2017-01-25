@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  livingbeing_id: 
+  item_id: 
+  drop_probability: 1
+
+two:
+  livingbeing_id: 
+  item_id: 
+  drop_probability: 1

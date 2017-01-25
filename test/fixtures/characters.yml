@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 
+  name: MyString
+  atk: 1
+  def: 1
+  hp: 1
+  max_depth: 9.99
+  speed: 9.99
+  capture_ability: 1
+  current_depth: 9.99
+
+two:
+  user_id: 
+  name: MyString
+  atk: 1
+  def: 1
+  hp: 1
+  max_depth: 9.99
+  speed: 9.99
+  capture_ability: 1
+  current_depth: 9.99
