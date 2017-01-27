@@ -1,8 +1,8 @@
 ready = ->
 	$(document).on 'click','.main-background', (e) ->
 		offset = $(".main-background").offset()
-		left = (e.pageX - offset.left)+'px'
-		top  = (e.pageY - offset.top)+'px'
+		left = (e.pageX - offset.left-50)+'px'
+		top  = (e.pageY - offset.top-50)+'px'
 		character_animate(left,top)
 		
 
