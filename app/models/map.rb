@@ -14,7 +14,7 @@ class Map < ActiveRecord::Base
   private
 
   def set_map_objects
-  	MapLivingbeings.init(self)
+  	MapLivingbeing.init(self)
   end
 
 

@@ -1,16 +1,23 @@
 ready = ->
 	$(document).on 'click','.main-background', (e) ->
-		
 		offset = $(".main-background").offset()
+		left = (e.pageX - offset.left)+'px'
+		top  = (e.pageY - offset.top)+'px'
+		character_animate(left,top)
+		
 
-		myAnimation = anime(
+
+	character_animate = (left,top) ->
+		anime(
 			targets: [ '#character' ]
-			left: (e.pageX - offset.left)+'px'
-			top: (e.pageY - offset.top)+'px'
+			left: left
+			top: top
 			rotate: 0
 			duration: 4000
 			loop: false
 		)
+
+
 
 	$(".audio-play")[0].play()
 

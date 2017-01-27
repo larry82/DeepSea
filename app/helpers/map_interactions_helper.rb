@@ -1,0 +1,2 @@
+module MapInteractionsHelper
+end

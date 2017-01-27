@@ -9,8 +9,12 @@
 		
 		
 
-			<div id="character">
-				
+			<div id="character" 
+				data-hp="<%= @character.hp %>" 
+				data-atk="<%= @character.atk %>" 
+				data-def="<%= @character.def %>"
+			>
+				<div id="battle-message"></div>
 			</div>
 			<div id="particles-js"></div>
 		

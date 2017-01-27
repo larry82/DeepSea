@@ -4,8 +4,10 @@ class PlaygroundController < ApplicationController
 
 	def main
 		@character = @user.characters.first
-		@map = character.map.first
+		@map = @character.maps.first
 		@map = Map.init_map(@character)
+
+		@map_livingbeings = @map.map_livingbeings.all
 
 		unless current_user.characters.first.present?
 			redirect_to start_path

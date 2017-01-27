@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'rails_admin', '~> 1.0'
+
 gem 'anime_js_rails'
 
 gem 'rails', '4.2.3'

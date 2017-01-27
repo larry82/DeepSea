@@ -9,6 +9,9 @@ ready = ->
 		# $('#character').style.left = '50%' 
 		$('#character').style.left = '300px'
 		$('#character').style.top = '400px'
+
+		
+
 		
 
 
