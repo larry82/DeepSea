@@ -1,3 +1,58 @@
-// Place all the styles related to the playground controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	background-color: #000 !important;
+}
+
+.main-size{
+	width:512px;
+	height:900px;
+	background-size:100% auto ;
+	background-repeat: no-repeat;
+}
+.second-background{
+	@extend .main-size;
+	background-image: image-url("main_bg_2.png");
+	margin: auto;
+	
+}
+.main-background{
+	@extend .main-size;
+	background-image: image-url("main_bg_1.png");
+	background-color: rgba(0,0,0,.75);
+	position: absolute;
+
+
+}
+.modal-background{
+	@extend .main-size;
+	margin: auto;
+	padding: 30px;
+	padding-top: 10px;
+	border-radius: 5px;
+}
+
+
+
+#particles-js{
+	 width: 100%;
+	 height:100%;
+}
+
+@media screen and (max-width: 600px) {
+	.container {
+		padding: 0 !important;
+	}
+	
+	.main-size{
+		// max-width:375px;
+		// max-height:607px;
+		width:100vw;
+		height:100vh;
+	}
+	.second-background{
+		background-image: image-url("main_bg_2.png");
+	}
+	.main-background{
+	
+	}
+
+}

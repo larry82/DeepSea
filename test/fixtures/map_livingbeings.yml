@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  map_id: 
+  livingbeing_id: 
+  category: MyString
+  name: MyString
+  info: MyString
+  atk: 1
+  hp: 1
+  def: 1
+  captured_probability: 1
+  exp: 1
+
+two:
+  map_id: 
+  livingbeing_id: 
+  category: MyString
+  name: MyString
+  info: MyString
+  atk: 1
+  hp: 1
+  def: 1
+  captured_probability: 1
+  exp: 1

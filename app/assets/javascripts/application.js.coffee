@@ -4,4 +4,6 @@
 #= require cocoon
 #= require turbolinks
 #= require react
+#= require anime
+#= require particles.min
 #= require_tree .

@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
-	root 'playgroud#main'
-	get :start , controller: :playgroud
+	devise_for :users
+	
+	root 'playground#main'
+	
+	get :start , controller: :playground
+
+	resources :characters,only: [:create]
 end

@@ -1,0 +1,30 @@
+.gem{
+	display: block;
+	position: absolute;
+	width:50px;
+	top: 60%;
+	left: 10%;
+	opacity: .4;
+	transform: scaleX(-1);
+	filter: FlipH;
+	&:hover{
+		opacity: 1;
+	}
+	&:focus{
+		opacity: 1;
+	}
+	&:active{
+		opacity: 1;
+	}
+	&:visited{
+		opacity: 1;
+	}
+}
+.creature{
+	@extend .gem;
+	opacity: .7;
+	width:70px;
+	top: 30%;
+	left: 80%;
+	
+}

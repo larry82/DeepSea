@@ -1,5 +1,18 @@
-<div class="row">
-	<div class="col-md-12">
-		
+
+
+<div class="modal-background create-character">
+	<div class="form">
+		<%= simple_form_for @character do |f| %>
+			<%= f.error_notification %>
+
+			<div class="form-inputs">
+				<%= f.input :name, required: true, autofocus: true,label:'角色名稱',hint:false %>
+			</div>
+
+			<div class="form-actions text-center">
+				<%= f.button :submit, "建立" %>
+			</div>
+		<% end %>
 	</div>
 </div>
+

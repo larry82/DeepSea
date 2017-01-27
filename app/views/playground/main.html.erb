@@ -1,5 +1,20 @@
-<div class="row">
-	<div class="col-md-12">
+<%= render 'character_info' %>
+<% render 'battle' %>
+<div class="second-background">
+	
+	<div class="main-background" >
+
+		<%= render 'creatures' %>
+		<%= render 'gems' %>
+		
+		
+
+			<div id="character">
+				
+			</div>
+			<div id="particles-js"></div>
 		
 	</div>
+
+	<%= audio_tag "underwater.mp3", loop:"true", class: "audio-play" %>
 </div>

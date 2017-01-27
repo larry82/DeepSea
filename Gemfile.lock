@@ -36,6 +36,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    anime_js_rails (1.1.0)
     ansi (1.5.0)
     arel (6.0.0)
     autoprefixer-rails (5.2.1)
@@ -263,6 +264,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  anime_js_rails
   autoprefixer-rails
   better_errors
   bootstrap-sass
