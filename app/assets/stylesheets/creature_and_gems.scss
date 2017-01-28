@@ -1,5 +1,6 @@
 .gem-box{
-	display: block;
+	widows: 50px;
+	// display: block;
 	position: absolute;
 	opacity: .4;
 	// background-color: rgba(255,255,255,.1);
@@ -25,8 +26,26 @@
 }
 .creature-box{
 	@extend .gem-box;
+	width:70px;
 	opacity: .7;
 }
-.creature{
+.battle-message-creature{
+	position: absolute;
+	left:20px;
+	top: 20px;
+	width:100px;
+	height:30px;
+	text-align: center;
+	font-size: 20px;
+	color:white;
+	display: hide;
+}
+.creature-img{
 	width:70px;	
+}
+.creature-img-reverse{
+	width:70px;
+	transform: scaleX(-1);
+    filter: FlipH;
+    display: none;
 }

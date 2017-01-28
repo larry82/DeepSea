@@ -10,23 +10,9 @@
 		<div class="battle-message-creature">
 			
 		</div>
-		<%=  image_tag("creature1.png",class:"creature") %>
+		<%=  image_tag("creature1.png",class:"creature-img") %>
+		<%=  image_tag("creature1.png",class:"creature-img-reverse") %>
 		
 	</div>
-
-	<div class="creature-box" style="top: 70%;left: 80%;"
-	data-name= "<%= map_livingbeing.name %>" 
-	data-hp="<%= map_livingbeing.hp %>" 
-	data-atk="<%= map_livingbeing.atk %>" 
-	data-def="<%= map_livingbeing.def %>"
-	data-status="init"
-	>
-		<div class="battle-message-creature">
-			
-		</div>
-		<%=  image_tag("creature1.png",class:"creature") %>
-		
-	</div>
-	
 	
 <% end %>
